@@ -1,0 +1,29 @@
+.wrapper{
+	max-width: 400px;
+	margin: 20px;
+}
+.btn-control{
+	margin-left:10px;
+}
+.add-item-input{
+	width:200px;
+	margin-left:10px;
+}
+
+.list-container{
+	margin-top:20px;
+}
+.list-container .list-item{
+	margin:0 0 10px 0;
+}
+.list-container .list-item .item-name{
+	cursor: pointer;
+}
+.list-container .list-item .item-name.done{
+	text-decoration: line-through;
+
+}
+.list-container .list-item .select-item{
+	margin: 4px 10px 0 0;
+	cursor: pointer;
+}

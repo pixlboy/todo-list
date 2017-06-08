@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>TODO</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="app/css/main.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>TODO List</h1>
+            <div>
+                Your have <span id="itemCount"></span> items in your TODO list :) 
+            </div>
+            <div>
+                <input type="text" placeholder="Add an Item" name="add-item" class="pull-left form-control add-item-input" id="itemAddInput" />
+                <input type="button" name="add-item-btn" class="btn btn-primary pull-left btn-control" value="Add" id="itemAddBtn"/>
+                <input type="button" name="reset-list-btn" class="btn btn-default pull-left btn-control" value="Reset List" id="resetListBtn"/>   
+            </div>
+            <span class="clearfix"></span>
+            <ol class="list-container" id="listWrapper"></ol>
+            <div>
+                <input type="button" class="btn btn-default pull-left btn-control" value="Delete selected" id="deleteAllItems"/>
+                <input type="button" class="btn btn-default pull-left btn-control" value="Mark selected" id="markAllDone"/>
+                <input type="button" class="btn btn-default pull-left btn-control" value="Sort by Name" id="sortByName"/>
+            </div>
+        </div>
+        <script src="app/js/main.js"></script>
+    </body>
+</html>
